@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portafolio web · Gabriel Bravo</title>
+    <meta
+      name="description"
+      content="Portafolio web de Gabriel Bravo, estudiante de Ingeniería Multimedia: videojuegos 2D, desarrollo interactivo y experiencias digitales."
+    />
+    <meta name="author" content="Gabriel Bravo" />
+    <meta name="theme-color" content="#0B1F3A" />
+    <meta property="og:title" content="Portafolio web · Gabriel Bravo" />
+    <meta
+      property="og:description"
+      content="Desarrollo interactivo, diseño y experiencias digitales."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B1F3A'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='16' text-anchor='middle' fill='white'%3EGB%3C/text%3E%3C/svg%3E"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/manrope.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <script src="js/config.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#videojuegos">Saltar al contenido</a>
+    <header class="nav">
+      <a class="logo" href="#inicio" aria-label="Gabriel Bravo, ir al inicio"
+        >GB</a
+      >
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#videojuegos">Videojuegos</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio" class="sec hero" aria-labelledby="t-inicio">
+        <div class="wrap" data-reveal>
+          <h1 id="t-inicio">Portafolio web</h1>
+          <p class="name">Gabriel Bravo</p>
+          <p class="lead">
+            Desarrollo interactivo, diseño y experiencias digitales.
+          </p>
+        </div>
+        <a class="next" href="#videojuegos"
+          ><span>Desplázate</span><i aria-hidden="true"></i
+        ></a>
+      </section>
+
+      <section id="videojuegos" class="sec light" aria-labelledby="t-juegos">
+        <div class="wrap">
+          <header class="head" data-reveal>
+            <p class="eyebrow">01 — Proyectos</p>
+            <h2 id="t-juegos">Videojuegos</h2>
+            <p class="sub">
+              Dos videojuegos 2D que puedes jugar directamente en el navegador.
+            </p>
+          </header>
+          <div class="cards">
+            <article class="card" data-reveal>
+              <h3>Futbol Arcade 2D</h3>
+              <img
+                src="assets/images/futbol-arcade-2d.png"
+                width="1280"
+                height="720"
+                loading="lazy"
+                alt="Pantalla inicial de Futbol Arcade 2D: título Cabezones FC sobre un estadio, con los botones Jugar, 1 vs 1, Ajustes e Historial"
+              />
+              <p>
+                Un videojuego de fútbol arcade 2D inspirado en los clásicos
+                juegos de fútbol de cabezas.
+              </p>
+              <a
+                class="btn"
+                data-game="futbol"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jugar Futbol Arcade 2D (se abre en una pestaña nueva)"
+                >Jugar
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  <path
+                    d="M4 10h11M11 5l5 5-5 5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </article>
+            <article class="card" data-reveal>
+              <h3>Ping-Pong 2D</h3>
+              <img
+                src="assets/images/ping-pong-2d.png"
+                width="1280"
+                height="720"
+                loading="lazy"
+                alt="Pantalla inicial de Pong: fondo de madera oscura con los botones Iniciar partida y Niveles, y la elección de tema Madera o Acuático"
+              />
+              <p>
+                Una experiencia de Ping-Pong 2D inspirada en los clásicos
+                videojuegos arcade.
+              </p>
+              <a
+                class="btn"
+                data-game="pingpong"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jugar Ping-Pong 2D (se abre en una pestaña nueva)"
+                >Jugar
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  <path
+                    d="M4 10h11M11 5l5 5-5 5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </article>
+          </div>
+        </div>
+        <a class="next dark" href="#blog"
+          ><span>Blog</span><i aria-hidden="true"></i
+        ></a>
+      </section>
+
+      <section id="blog" class="sec tint" aria-labelledby="t-blog">
+        <div class="wrap split">
+          <header class="head" data-reveal>
+            <p class="eyebrow">02 — Sobre mí</p>
+            <h2 id="t-blog">Blog</h2>
+            <p class="sub">Sobre mí</p>
+          </header>
+          <div class="about" data-reveal>
+            <p class="big">
+              Soy Gabriel Bravo, estudiante de Ingeniería Multimedia. Me
+              interesa combinar la creatividad y la tecnología para desarrollar
+              experiencias digitales interactivas, explorar nuevas formas de
+              diseño y convertir ideas en proyectos funcionales.
+            </p>
+            <p>
+              Este portafolio reúne dos de mis proyectos de videojuegos 2D y
+              representa parte de mi proceso de aprendizaje, experimentación y
+              desarrollo.
+            </p>
+          </div>
+        </div>
+        <a class="next dark" href="#contacto"
+          ><span>Contacto</span><i aria-hidden="true"></i
+        ></a>
+      </section>
+
+      <section
+        id="contacto"
+        class="sec hero contact"
+        aria-labelledby="t-contacto"
+      >
+        <div class="wrap split">
+          <header class="head" data-reveal>
+            <p class="eyebrow">03 — Contacto</p>
+            <h2 id="t-contacto">Hablemos</h2>
+            <p class="sub">
+              ¿Tienes una idea, una propuesta o quieres ponerte en contacto
+              conmigo? Déjame tus datos y podremos conversar.
+            </p>
+          </header>
+          <form id="form" class="form" novalidate data-reveal>
+            <div class="row">
+              <div class="field">
+                <label for="nombre">Nombre</label
+                ><input
+                  id="nombre"
+                  name="nombre"
+                  autocomplete="given-name"
+                  required
+                  aria-describedby="e-nombre"
+                />
+                <p class="err" id="e-nombre"></p>
+              </div>
+              <div class="field">
+                <label for="apellido">Apellido</label
+                ><input
+                  id="apellido"
+                  name="apellido"
+                  autocomplete="family-name"
+                  required
+                  aria-describedby="e-apellido"
+                />
+                <p class="err" id="e-apellido"></p>
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Correo electrónico</label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                inputmode="email"
+                autocomplete="email"
+                required
+                aria-describedby="e-email"
+              />
+              <p class="err" id="e-email"></p>
+            </div>
+            <input
+              type="text"
+              name="_gotcha"
+              tabindex="-1"
+              autocomplete="off"
+              class="hp"
+              aria-hidden="true"
+            />
+            <input
+              type="hidden"
+              name="_subject"
+              value="Nuevo contacto desde el portafolio web"
+            />
+            <button class="btn solid" type="submit">
+              <span class="lbl">Enviar contacto</span
+              ><span class="spin" aria-hidden="true"></span>
+            </button>
+            <p class="status" id="status" role="status" aria-live="polite"></p>
+            <p class="note">
+              Usaré tus datos únicamente para responder a tu solicitud de
+              contacto.
+            </p>
+          </form>
+        </div>
+        <footer class="foot">© Gabriel Bravo · Portafolio web</footer>
+      </section>
+    </main>
+  </body>
+</html>
