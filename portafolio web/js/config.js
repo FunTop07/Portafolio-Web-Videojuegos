@@ -6,5 +6,5 @@ window.PORTFOLIO_CONFIG = {
   },
   // Reemplaza TU_FORM_ID por el identificador de tu formulario de Formspree
   // (la parte final de https://formspree.io/f/XXXXXXXX).
-  formspreeId: "TU_FORM_ID"
+  formspreeId: "https://formspree.io/f/mzeejeov"
 };
